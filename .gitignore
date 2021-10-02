@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# IntelliJ
+/.idea/
+
+# Airflow stuff
+logs/
+airflow.db
+airflow.cfg
+unittests.cfg
+webserver_config.py
+
