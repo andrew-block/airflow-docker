@@ -21,7 +21,32 @@ With Airflow, workflows are architected and expressed as Directed Acyclic Graphs
 
 ## Getting Started
 
-This repository uses `Airflow 2.1.3` and `Python 3.8` but you can modify these to whatever versions you want my modifying the Dockerfile.
+This repository uses `Airflow 2.1.3` and `Python 3.8` but you can modify these to whatever versions you want my modifying the Dockerfile 🐳.
+
+### Start Airflow
+
 To run Airflow locally use the execute the following command:
 
         make start-airflow
+        
+After the `webserver` service starts, you can login to the Airflow UI by going to http://localhost:8080/
+
+You can also look at the `flower` worker/s UI by going to http://localhost:5555/
+
+### Stop Airflow
+
+To stop Airflow at anytime you can execute the following command:
+
+        make stop-airflow
+        
+### Rebuild Airflow 
+
+If you make any changes to the Dockerfile you can rebuild the Airflow image by executing the following command:
+
+        make rebuild-airflow
+
+### Reset Airflow
+
+If you want to reset your local Airflow you can execute the following command:
+
+        make reset-airflow
