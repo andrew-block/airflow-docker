@@ -1,7 +1,6 @@
 # Add any additional Python dependencies below:
 pytest
 pymysql
-requests
 SQLAlchemy == 1.3.23
 
 # Airflow Extras
