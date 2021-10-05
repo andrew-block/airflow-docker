@@ -1,7 +1,10 @@
 # Add any additional Python dependencies below:
 pytest
-pymysql
-SQLAlchemy == 1.3.23
+SQLAlchemy==1.3.23
+
+# NFT packages
+Pillow
+numpy
 
 # Airflow Extras
 apache-airflow-providers-redis==2.0.1
