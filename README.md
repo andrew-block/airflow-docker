@@ -53,7 +53,7 @@ If you want to reset your local Airflow you can execute the following command:
         
 ## Airflow UI
 
-To run a DAG you toggle the DAG button to the right which will turn blue to indicate your `mario` DAG has started. A successfull DAG run will show up as a green circle in the `run` section and the number inside that circle indicates how many runs you have processed. 
+To run the `DAG` you toggle the button to the right which will turn blue to indicate your `mario` DAG has started. A successfull DAG run will show up as a green circle in the `Runs` section and the number inside that circle indicates how many runs you have processed. 
 
 <p align="center">
 <img src="https://github.com/andrew-block/airflow-docker/blob/0974a551a58c42cd593cb8f61a6a1f68b392643b/resources/airflow_ui.png" />
