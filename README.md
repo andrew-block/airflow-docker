@@ -53,10 +53,22 @@ If you want to reset your local Airflow you can execute the following command:
         
 ## Airflow UI
 
-To run the `DAG` you toggle the button to the right which will turn blue to indicate your `mario` DAG has started. A successfull DAG run will show up as a green circle in the `Runs` section and the number inside that circle indicates how many runs you have processed. 
+The [Airflow UI](https://airflow.apache.org/docs/apache-airflow/stable/ui.html) provides insights into your DAGs and DAG Runs. The UI is a useful tool for understanding, monitoring, and troubleshooting your pipelines.
 
 <p align="center">
-<img src="https://github.com/andrew-block/airflow-docker/blob/0974a551a58c42cd593cb8f61a6a1f68b392643b/resources/airflow_ui.png" />
+<img src="https://github.com/andrew-block/airflow-docker/blob/003806e5a02b610a1d54b1840aeadef82b20555b/resources/airflow_ui.png" />
+</p>
+
+To run the `DAG` you toggle the button to the right which will turn blue to indicate your `mario` DAG has started. 
+
+<p align="center">
+<img src="https://github.com/andrew-block/airflow-docker/blob/003806e5a02b610a1d54b1840aeadef82b20555b/resources/dag_start.png" width="400" height=400" />
+</p>
+
+A successfull DAG run will show up as a green circle in the `Runs` section and the number inside that circle indicates how many runs you have processed. 
+
+<p align="center">
+<img src="https://github.com/andrew-block/airflow-docker/blob/003806e5a02b610a1d54b1840aeadef82b20555b/resources/dag_run.png"  width="900" height=300"/>
 </p>
 
 If the DAG run was succesfull ✅ you should see `pixel_mario` image created in your mario folder such as:
