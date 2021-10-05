@@ -21,7 +21,7 @@ With Airflow, workflows are architected and expressed as Directed Acyclic Graphs
 
 ## Getting Started
 
-This repository uses `Airflow 2.1.3` and `Python 3.8` but you can modify these to whatever versions you want my modifying the Dockerfile 🐳.
+This repository uses `Airflow 2.1.3` and `Python 3.8` but you can modify these to whatever versions you want by modifying the Dockerfile 🐳.
 
 ### Start Airflow
 
