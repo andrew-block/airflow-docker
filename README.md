@@ -59,7 +59,7 @@ To run a DAG you toggle the DAG button to the right which will turn blue to indi
 <img src="https://github.com/andrew-block/airflow-docker/blob/0974a551a58c42cd593cb8f61a6a1f68b392643b/resources/airflow_ui.png" />
 </p>
 
-If the DAG run was succesfull ✅ you should see customer `pixel_mario` image created in your mario folder such as:
+If the DAG run was succesfull ✅ you should see `pixel_mario` image created in your mario folder such as:
 
 <p align="center">
 <img src="https://github.com/andrew-block/airflow-docker/blob/0da2e7b327bf65463f07ad444049d428b5426e24/mario/pixel_mario_%23579841.png" width="400" height=400" />
